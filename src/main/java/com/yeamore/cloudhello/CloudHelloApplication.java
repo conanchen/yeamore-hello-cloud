@@ -20,10 +20,4 @@ public class CloudHelloApplication {
         return builder.build();
     }
 
-    @Bean
-    public HelloService helloService() {
-        return new HelloService();
-    }
-
-
 }
